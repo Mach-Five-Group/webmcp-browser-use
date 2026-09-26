@@ -1,0 +1,6 @@
+[project]
+name = "webmcp-playground-browser-use"
+version = "0.1.0"
+description = "Proof that an AI agent can drive a page through WebMCP instead of clicking it"
+requires-python = ">=3.11"
+dependencies = ["browser-use", "python-dotenv"]

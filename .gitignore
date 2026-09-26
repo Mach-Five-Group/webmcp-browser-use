@@ -1,0 +1,10 @@
+# Never commit the API key
+.env
+.env.*
+!.env.example
+
+.venv/
+__pycache__/
+*.py[cod]
+.uv/
+uv.lock
