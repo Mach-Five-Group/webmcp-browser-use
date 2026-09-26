@@ -57,6 +57,13 @@ WebMCP inverts it. The page declares `add_to_cart(sku, qty, gift, size)` with a
 schema, and the agent calls that. No selectors to break, arguments validated
 against a contract, and the page decides what it is willing to expose.
 
+## The rest of the ecosystem
+
+| | |
+| --- | --- |
+| [machvive-webmcp-ai](https://github.com/Mach-Five-Group/machvive-webmcp-ai) | The components that make a page agent-callable in the first place |
+| [webmcp-playground](https://github.com/Mach-Five-Group/webmcp-playground) | The page this harness points at, and its source |
+
 ## Files
 
 | | |
